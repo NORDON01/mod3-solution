@@ -1,9 +1,57 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	color: #fff;
-	background-color: lightgray;
+	color: black;
+	background-color: #fff;
 }
 
 #header-nav{
-	background-color: lightgreen;
+	background-color:cadetblue;
 }
+
+.container{
+	padding-left: 0px;
+}
+
+
+h2{
+	margin-top: 10px;
+	margin-bottom: 25px;
+	width: 80%;
+	margin-left: 45%;
+	margin-right: 25%;
+}
+
+.chicken{
+	background-color: cadetblue;
+}
+
+h4{
+	width: 20%;
+	margin-left: 50%;
+}
+
+section p{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* ============ Medium viewport======== */
+@media(min-width:768px) and (max-width:991px){ 
+
+}
+
+/* ============ Small viewport ========= */
+@media(min-width:576px) and (max-width: 767px){
+
+}
+
+/* ============ Extra Small viewport======== */
+@media(max-width:575px){
+
+
+}
+
+
+
+
+
