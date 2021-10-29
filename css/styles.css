@@ -12,6 +12,20 @@ body{
 	padding-left: 0px;
 }
 
+ .navbar-header button.navbar-toggle{
+	border: 1px solid #5fec1d; 
+	width: 40px;
+	height: 40px;
+	clear: both;
+	margin:0px 0px 10px 370px;	
+}  
+
+.navbar-header .icon-bar {
+	border: 1px solid #61122f;
+	width: 20px;
+	margin-top: 5px;
+  } 
+  
 
 h2{
 	margin-top: 10px;
@@ -26,6 +40,8 @@ h2{
 }
 
 h4{
+	padding-top: 20px;
+	padding-bottom: 40px;
 	width: 20%;
 	margin-left: 50%;
 }

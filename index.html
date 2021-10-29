@@ -10,6 +10,7 @@
 
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/3.3/components/#glyphicons/glyphicon-cutlery">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -17,7 +18,24 @@
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <div class="navbar-brand">Food, LLC</div>
+                <div class="navbar-brand">
+                    Food, LLC
+                </div>
+                <button>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> About
+                    </a>
+                </button>
+                <a href="#" class="pull-right visible-xs">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </a>
+
             </div>
         </div>
     </nav>
