@@ -17,18 +17,13 @@ body{
 	width: 40px;
 	height: 40px;
 	clear: both;
-	margin:0px 0px 10px 355px;	
+	margin: bottom 10px;
+	/* margin-left: 330px;	 */
 }  
 
 .visible-xs{
 	visibility: hidden;
 }
-
-.navbar-header .icon-bar {
-	border: 1px solid #61122f;
-	width: 20px;
-	margin-top: 5px;
-  } 
   
 img{
 	padding-right: 5px;
@@ -77,9 +72,20 @@ section p{
 /* ============ Extra Small viewport======== */
 @media(max-width:575px){
 	.visible-xs{
-		visibility: visible;
+		visibility: visible;		
 	}
 
+	.chicken{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section p{
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 
