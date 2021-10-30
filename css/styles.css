@@ -17,8 +17,12 @@ body{
 	width: 40px;
 	height: 40px;
 	clear: both;
-	margin:0px 0px 10px 370px;	
+	margin:0px 0px 10px 355px;	
 }  
+
+.visible-xs{
+	visibility: hidden;
+}
 
 .navbar-header .icon-bar {
 	border: 1px solid #61122f;
@@ -26,6 +30,9 @@ body{
 	margin-top: 5px;
   } 
   
+img{
+	padding-right: 5px;
+}
 
 h2{
 	margin-top: 10px;
@@ -51,19 +58,27 @@ section p{
 	margin-right: 10px;
 }
 
+/* ============ Large & Extra Large viewport======== */
+@media(min-width:992px){
+
+
+}
+
 /* ============ Medium viewport======== */
 @media(min-width:768px) and (max-width:991px){ 
-
+	
 }
 
 /* ============ Small viewport ========= */
 @media(min-width:576px) and (max-width: 767px){
-
+	
 }
 
 /* ============ Extra Small viewport======== */
 @media(max-width:575px){
-
+	.visible-xs{
+		visibility: visible;
+	}
 
 }
 
