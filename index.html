@@ -11,16 +11,12 @@
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
-
-
-
 </head>
 
 <body>
     <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
-            <div class="navbar-header d-flex flex-row justify-content-between">
+            <div class="navbar-header d-flex flex-row">
                 <div class="navbar-brand">
                     Food, LLC
                 </div>
@@ -31,7 +27,7 @@
                         <img src="list.svg" alt="Bootstrap" width="32" height="32">
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Chicken</a>
+                        <a class="dropdown-item" href="#chic">Chicken</a>
                         <a class="dropdown-item" href="#">Beef</a>
                         <a class="dropdown-item" href="#">Sushi</a>
                     </div>
@@ -41,12 +37,13 @@
         </div> <!-- Fin Container -->
     </nav>
     <!--Fin nav-->
-    <section>
-        <h2>OUR MENU</h2>
-        <div class="chicken">
-            <h4>
-                Chicken
-            </h4>
+
+
+    <section class="container-fluid d-xs-flex flex-column">
+        <h2 class="menu">&nbsp &nbsp &nbsp &nbsp &nbsp OUR MENU</h2>
+
+        <div class="chicken" id="chic">
+            <h4>Chicken</h4>
             <p>
                 ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ad perspiciatis exercitationem culpa
                 quas a
@@ -101,7 +98,6 @@
                 quam nobis nisi q
             </p>
         </div>
-
     </section>
 
 

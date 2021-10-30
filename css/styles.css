@@ -12,6 +12,14 @@ body{
 	padding-left: 0px;
 }
 
+.navbar-header{
+	text-align:center
+}
+
+h2{
+	text-align: center;
+}
+
  .navbar-header button.navbar-toggle{
 	border: 1px solid #5fec1d; 
 	width: 40px;
@@ -30,27 +38,25 @@ img{
 }
 
 h2{
+	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 25px;
 	width: 80%;
-	margin-left: 45%;
-	margin-right: 25%;
+}
+
+section{
+	width: 100%;
 }
 
 .chicken{
+	padding-left: 10px;
 	background-color: cadetblue;
 }
 
 h4{
-	padding-top: 20px;
-	padding-bottom: 40px;
 	width: 20%;
-	margin-left: 50%;
-}
-
-section p{
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* ============ Large & Extra Large viewport======== */
@@ -75,17 +81,17 @@ section p{
 		visibility: visible;		
 	}
 
-	.chicken{
+	 .chicken{
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	section p{
+	section{
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-	}
+	} 
 }
 
 
