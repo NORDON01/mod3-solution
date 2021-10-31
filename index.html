@@ -5,9 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -15,27 +12,28 @@
 
 <body>
     <nav id="header-nav" class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header flex-container">
-                <div class="navbar-brand">
-                    Food, LLC
-                </div>
+        <!-- <div class="container"> -->
 
-                <!-- <div class="dropdown"> -->
-                <button type="button" class="navbar-toggle collapsed visible-xs dropdown dropdown-toogle"
-                    data-toggle="dropdown" data-target="#collapsable-nav" aria-expanded="false">
-                    <img src="list.svg" alt="Bootstrap" width="32" height="32">
-                </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#chic">Chicken</a>
-                    <a class="dropdown-item" href="#">Beef</a>
-                    <a class="dropdown-item" href="#">Sushi</a>
-                </div>
+        <div class="d-sm-flex flex-row">
+            <div class="navbar-brand">
+                Food, LLC
             </div>
-            <!--Fin dropdown-->
+
+            <!-- <div class="dropdown"> -->
+            <div class="bouton">
+                <button type="button" class="navbar-toggle collapsed visible-sm dropdown dropdown-toogle"
+                    data-toggle="dropdown" data-target="#collapsable-nav" aria-expanded="false">
+                    <img src="list.svg" alt="Bootstrap" width="32" height="32" />
+                </button>
+            </div>
+            <!-- <div class="dropdown-menu">
+                <a class="dropdown-item" href="#chic">Chicken</a>
+                <a class="dropdown-item" href="#">Beef</a>
+                <a class="dropdown-item" href="#">Sushi</a>
+            </div> -->
         </div>
-        <!--Fin navbar-header -->
-        </div> <!-- Fin Container -->
+
+        <!-- </div> -->
     </nav>
     <!--Fin nav-->
 
@@ -104,6 +102,7 @@
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 

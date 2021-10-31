@@ -12,16 +12,11 @@ body{
 	padding-left: 0px;
 }
 
- .navbar-header{
-	text-align:center;
-} 
-
-
 h2{
 	text-align: center;
 }
 
- .navbar-header button.navbar-toggle{
+ /*.navbar-header*/ .flexcontainer .button.navbar-toggle{
 	border: 1px solid #5fec1d; 
 	width: 40px;
 	height: 40px;
@@ -29,7 +24,7 @@ h2{
 	margin: bottom 10px;
 }  
 
-.visible-xs{
+.visible-sm{
 	visibility: hidden;
 }
   
@@ -48,45 +43,60 @@ section{
 	width: 100%;
 }
 
-.chicken{
-	padding-left: 10px;
+.chicken{	
 	background-color: cadetblue;
 }
 
+.chicken p{
+	width: 80%;
+	padding-left: 15px;
+	padding-right: auto;
+}
+
 h4{
+	padding-top: 15px;
+	margin-bottom: 25px;
 	width: 20%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* ============ Large & Extra Large viewport======== */
+/* ============ Extra Large viewport======== */
 @media(min-width:992px){
 
 
 }
 
-/* ============ Medium viewport======== */
+/* ============ Large viewport======== */
 @media(min-width:768px) and (max-width:991px){ 
 	
 }
 
-/* ============ Small viewport ========= */
+/* ============ Medimu viewport ========= */
 @media(min-width:576px) and (max-width: 767px){
 	
 }
 
-/* ============ Extra Small viewport======== */
+/* ============ Small viewport======== */
 @media(max-width:575px){
-	.visible-xs{
+	.visible-sm{
 		visibility: visible;		
 	}
 
-	flex-container{
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-between;
+	.d-sm-flex{
+		flex-wrap: wrap;
 	}
-	 .chicken{
+
+	.bouton{
+		margin-left: 75vw;
+		margin-top:0px;
+		margin-bottom: 0px;
+		padding-right: 30vw;
+		padding-bottom: 0px;
+	}
+
+
+	.chicken{
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
