@@ -14,7 +14,9 @@ body{
 
 .navbar-header{
 	text-align:center
+	justify-content: space-between;
 }
+
 
 h2{
 	text-align: center;
@@ -81,6 +83,11 @@ h4{
 		visibility: visible;		
 	}
 
+	flex-container{
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
 	 .chicken{
 		width: 90%;
 		margin-left: auto;
