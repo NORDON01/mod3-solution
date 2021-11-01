@@ -48,7 +48,7 @@ section{
 }
 
 .chicken p{
-	width: 80%;
+	width: 97%;
 	padding-left: 15px;
 	padding-right: auto;
 }
@@ -63,18 +63,23 @@ h4{
 
 /* ============ Extra Large viewport======== */
 @media(min-width:992px){
-
-
+	.lesmenus{
+		display: none;
+	}
 }
 
 /* ============ Large viewport======== */
 @media(min-width:768px) and (max-width:991px){ 
-	
+	.lesmenus{
+		display: none;
+	}
 }
 
 /* ============ Medimu viewport ========= */
 @media(min-width:576px) and (max-width: 767px){
-	
+	.lesmenus{
+		display: none;
+	}
 }
 
 /* ============ Small viewport======== */
@@ -97,7 +102,7 @@ h4{
 
 
 	.chicken{
-		width: 90%;
+		width: 97%;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 10px;
@@ -105,10 +110,14 @@ h4{
 	}
 
 	section{
-		width: 90%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	} 
+
+	.lesmenus{
+		display: block;
+	}
 }
 
 

@@ -12,8 +12,7 @@
 
 <body>
     <nav id="header-nav" class="navbar navbar-default">
-        <!-- <div class="container"> -->
-
+        <!-- Responsive flexbox -->
         <div class="d-sm-flex flex-row">
             <div class="navbar-brand">
                 Food, LLC
@@ -26,20 +25,19 @@
                     <img src="list.svg" alt="Bootstrap" width="32" height="32" />
                 </button>
             </div>
-            <!-- <div class="dropdown-menu">
-                <a class="dropdown-item" href="#chic">Chicken</a>
-                <a class="dropdown-item" href="#">Beef</a>
-                <a class="dropdown-item" href="#">Sushi</a>
-            </div> -->
         </div>
-
-        <!-- </div> -->
     </nav>
     <!--Fin nav-->
 
 
-    <section class="container-fluid d-xs-flex flex-column">
+    <section class=" d-sm-flex flex-column">
+        <!-- container-fluid  -->
         <h2 class="menu">&nbsp &nbsp &nbsp &nbsp &nbsp OUR MENU</h2>
+        <div id="collapsable-nav" class="dropdown-menu visible-sm">
+            <a class="dropdown-item" href="#chic">Chicken</a>
+            <a class="dropdown-item" href="#">Beef</a>
+            <a class="dropdown-item" href="#">Sushi</a>
+        </div>
 
         <div class="chicken" id="chic">
             <h4>Chicken</h4>
