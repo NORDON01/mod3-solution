@@ -18,10 +18,11 @@
                 Food, LLC
             </div>
 
-            <!-- <div class="dropdown"> -->
+
             <div class="bouton">
-                <button type="button" class="navbar-toggle collapsed visible-sm dropdown dropdown-toogle"
-                    data-toggle="dropdown" data-target="#collapsable-nav" aria-expanded="false">
+
+                <button type="button" class="navbar-toggle collapsed visible-sm" data-toggle="collapse"
+                    data-target="#les3menus" aria-expanded="false">
                     <img src="list.svg" alt="Bootstrap" width="32" height="32" />
                 </button>
             </div>
@@ -30,13 +31,12 @@
     <!--Fin nav-->
 
 
-    <section class=" d-sm-flex flex-column">
-        <!-- container-fluid  -->
+    <section class=" container-fluid d-sm-flex flex-column">
         <h2 class="menu">&nbsp &nbsp &nbsp &nbsp &nbsp OUR MENU</h2>
-        <div id="collapsable-nav" class="dropdown-menu visible-sm">
-            <a class="dropdown-item" href="#chic">Chicken</a>
-            <a class="dropdown-item" href="#">Beef</a>
-            <a class="dropdown-item" href="#">Sushi</a>
+        <div id="les3menus" class="visible-sm">
+            <a href="#chic">Chicken</a><br>
+            <a href="#">Beef</a><br>
+            <a href="#">Sushi</a>
         </div>
 
         <div class="chicken" id="chic">
@@ -100,7 +100,6 @@
 
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 
